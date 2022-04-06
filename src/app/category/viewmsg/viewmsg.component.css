@@ -1,0 +1,8 @@
+@media only screen and (max-width: 767px) {
+  .overflow-scroll {
+    height: 50vh !important;
+  }
+  .col-md-8 {
+    height: 50vh !important;
+  }
+}

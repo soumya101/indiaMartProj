@@ -1,0 +1,85 @@
+.container-fluid {
+  background: #f2f2f2;
+}
+.btn-primary {
+  background-color: #1fb53a;
+  border-color: #1fb53a;
+  font-size: 1.8rem;
+}
+.btn-primary:hover {
+  background-color: #b5f9c1;
+  color: black;
+}
+.list-group-item {
+  border: none;
+}
+.list-group-item.active {
+  border-bottom: 3px solid #1fb53a;
+  background-color: #fff;
+  color: #555;
+}
+.top-bar:hover {
+  border-bottom: 3px solid #1fb53a;
+  margin-left: 5px;
+}
+.side-bar:hover {
+  text-decoration: underline;
+}
+.search {
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+.form-check-input {
+  margin-left: -8px;
+  margin-top: 5px;
+}
+span {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  div.col.mt-4 {
+    height: 11vh;
+    overflow: scroll;
+  }
+}
+@media only screen and (max-width: 575px) {
+  div.col.mt-4 {
+    height: 11vh;
+    overflow: scroll;
+  }
+  div.col-md-8.col-lg-10 {
+    height: 50vh;
+    overflow: scroll;
+  }
+  div.col-lg-2.col-md-4 {
+    height: 20vh;
+    overflow: scroll;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  div.col-md-8.col-lg-10 {
+    height: 90vh;
+    overflow: scroll;
+  }
+  div.col-lg-2.col-md-4 {
+    height: 82vh;
+    overflow: scroll;
+  }
+}
+
+@media only screen and (min-width: 516px) and (max-width: 1400px) {
+  button.btn.btn-md.btn-primary {
+    height: 33.5px;
+    width: 131.69px;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  button.btn.btn-md.btn-primary {
+    height: 54.5px;
+    width: 84px;
+  }
+}

@@ -1,0 +1,2283 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/"
+    />
+
+    <!-- title -->
+    <title>Indiamart</title>
+
+    <!-- favicon -->
+    <!--	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">-->
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--PreLoader-->
+    <!-- <div class="loader">
+  <div class="loader-inner">
+    <div class="circle"></div>
+  </div>
+</div> -->
+    <!--PreLoader Ends-->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Free Registration/Sign in
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend2">91</span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefaultUsername"
+                placeholder="Enter 10 digit mobile number"
+                aria-describedby="inputGroupPrepend2"
+                required
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-block btn-warning mt-3">
+              Start Selling
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header -->
+    <div class="top-header-area" id="sticker">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 text-center">
+            <div class="main-menu-wrap">
+              <!-- logo -->
+              <div class="site-logo">
+                <a href="index.html">
+                  <img src="assets/img/logo.png" alt="" />
+                </a>
+              </div>
+              <!-- logo -->
+
+              <!-- menu start -->
+              <nav class="main-menu">
+                <ul>
+                  <li class="current-list-item">
+                    <a href="#">
+                      <i class="fa fa-medkit fa-fw"></i><br />
+                      Covid 19 Supplies</a
+                    >
+                    <ul class="sub-menu">
+                      <li><a href="index.html">Static Home</a></li>
+                      <li><a href="index_2.html">Slider Home</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a
+                      href="about.html"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                      ><i class="fa fa-shopping-basket fa-fw"></i><br />Sell</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-question-circle fa-fw"></i><br />Help</a
+                    >
+                    <ul class="sub-menu">
+                      <li><a href="404.html">404 page</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="cart.html">Cart</a></li>
+                      <li><a href="checkout.html">Check Out</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="news.html">News</a></li>
+                      <li><a href="shop.html">Shop</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="news.html"
+                      ><i class="fa fa-envelope fa-fw"></i><br />Message</a
+                    >
+                    <ul class="sub-menu">
+                      <li><a href="news.html">News</a></li>
+                      <li><a href="single-news.html">Single News</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#" data-toggle="modal" data-target="#exampleModal"
+                      ><i class="fa fa-user-circle fa-fw"></i><br />Login</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <a class="mobile-show search-bar-icon" href="#"
+                ><i class="fas fa-search"></i
+              ></a>
+              <div class="mobile-menu"></div>
+              <!-- menu end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end header -->
+
+    <!-- search area -->
+    <div class="search-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <span class="close-btn"><i class="fas fa-window-close"></i></span>
+            <div class="search-bar">
+              <div class="search-bar-tablecell">
+                <h3>Search For:</h3>
+                <input type="text" placeholder="Keywords" />
+                <button type="submit">
+                  Search <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end search area -->
+
+    <!-- hero area -->
+    <div class="hero-area hero-bg">
+      <div class="container">
+        <div class="row justify-content-center pt-80">
+          <div class="col-lg-9">
+            <div class="hero-text">
+              <div class="hero-text-tablecell">
+                <h3 class="text-white">
+                  Search for products & find verified sellers near you
+                </h3>
+                <form>
+                  <div class="mx-auto">
+                    <div class="form-row">
+                      <div class="col">
+                        <div class="input-group mb-2 mr-sm-2">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text">
+                              <i class="fa fa-map-marker-alt fa-lg"></i>
+                            </div>
+                          </div>
+                          <select
+                            class="form-control"
+                            id="inlineFormCustomSelectPref"
+                          >
+                            <option selected>All India</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Enter Product/Service Name"
+                        />
+                      </div>
+                      <div class="col">
+                        <button type="submit" class="btn btn-warning mb-2">
+                          <i class="fa fa-search fa-fw"></i> Search
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end hero area -->
+
+    <!-- <div class="container-fluid">
+      <div class="px-4">
+        <div class="row">
+          <div class="header-classic"> -->
+    <!-- top header start -->
+
+    <!-- top header close -->
+    <!-- navigation start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-classic">
+            <a class="navbar-brand" href=""> Category Details</a>
+            <!-- <ul class="navbar-nav m-auto mt-2 mt-lg-0 mr-3 flex-row">
+              <li class="nav-item dropdown mega-dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-center"
+                  href=""
+                  id="menu-4"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><i class="fa fa-pills"></i><br />
+
+                  Drug & Pharma
+                </a>
+                <ul
+                  class="dropdown-menu mega-dropdown-menu"
+                  aria-labelledby="menu-4"
+                >
+                  <li class="row">
+                    <ul class="col">
+                      <li>
+                        <h6>Common Disease</h6>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" routerLink="/category">
+                          block 1</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 3</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 4</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 5</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 6</a>
+                      </li>
+                    </ul>
+                    <ul class="col">
+                      <li>
+                        <h6>Ayurved Herbal Product & Medicine</h6>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 7</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 8</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 9</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 10</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 11</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 12</a>
+                      </li>
+                    </ul>
+                    <ul class="col">
+                      <li>
+                        <h6>Nutraceuticals & Dietary Supplements</h6>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 13</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 14</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 15</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 16</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 17</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 18</a>
+                      </li>
+                    </ul>
+                    <ul class="col">
+                      <li>
+                        <h6>Anti infective Drugs & Medicines</h6>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 19</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 20</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 21</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 22</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown mega-dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-center"
+                  href=""
+                  id="menu-4"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><i class="fa fa-hospital"></i><br />
+                  Hospital & Diagnostics
+                </a>
+                <ul
+                  class="dropdown-menu mega-dropdown-menu"
+                  aria-labelledby="menu-4"
+                >
+                  <li class="row">
+                    <ul class="col">
+                      <li>
+                        <a class="dropdown-item" href="#"> block 1</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 2</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 3</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 4</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 5</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 6</a>
+                      </li>
+                    </ul>
+                    <ul class="col">
+                      <li>
+                        <a class="dropdown-item" href="#"> block 7</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 8</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 9</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 10</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 11</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 12</a>
+                      </li>
+                    </ul>
+                    <ul class="col">
+                      <li>
+                        <a class="dropdown-item" href="#"> block 13</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 14</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 15</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 16</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 17</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 18</a>
+                      </li>
+                    </ul>
+                    <ul class="col">
+                      <li>
+                        <a class="dropdown-item" href="#"> block 19</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 20</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 21</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"> block 22</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul> -->
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbar-classic"
+              aria-controls="navbar-classic"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar top-bar mt-0"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-three-dots-vertical"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg> -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-classic">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-3">
+                <li class="nav-item dropdown mega-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-center"
+                    href=""
+                    id="menu-4"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    ><i class="fa fa-pills"></i><br />
+
+                    Drug & Pharma
+                  </a>
+                  <ul
+                    class="dropdown-menu mega-dropdown-menu"
+                    aria-labelledby="menu-4"
+                  >
+                    <li class="row">
+                      <ul class="col">
+                        <li>
+                          <h6>Common Disease</h6>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" routerLink="/category">
+                            block 1</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 2</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 3</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 4</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 5</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 6</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <h6>Ayurved Herbal Product & Medicine</h6>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 7</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 8</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 9</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 10</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 11</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 12</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <h6>Nutraceuticals & Dietary Supplements</h6>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 13</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 14</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 15</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 16</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 17</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 18</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <h6>Anti infective Drugs & Medicines</h6>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 19</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 20</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 21</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 22</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown mega-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-center"
+                    href=""
+                    id="menu-4"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    ><i class="fa fa-hospital"></i><br />
+                    Hospital & Diagnostics
+                  </a>
+                  <ul
+                    class="dropdown-menu mega-dropdown-menu"
+                    aria-labelledby="menu-4"
+                  >
+                    <li class="row">
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 1</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 2</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 3</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 4</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 5</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 6</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 7</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 8</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 9</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 10</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 11</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 12</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 13</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 14</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 15</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 16</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 17</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 18</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 19</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 20</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 21</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 22</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown mega-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-center"
+                    href=""
+                    id="menu-4"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    ><i class="fa fa-carrot"></i><br />
+                    Food & Agriculture
+                  </a>
+                  <ul
+                    class="dropdown-menu mega-dropdown-menu"
+                    aria-labelledby="menu-4"
+                  >
+                    <li class="row">
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 1</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 2</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 3</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 4</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 5</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 6</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 7</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 8</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 9</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 10</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 11</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 12</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 13</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 14</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 15</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 16</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 17</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 18</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 19</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 20</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 21</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 22</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown mega-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-center"
+                    href=""
+                    id="menu-4"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    ><i class="fa fa-industry"></i><br />
+                    Industrial Machinery
+                  </a>
+                  <ul
+                    class="dropdown-menu mega-dropdown-menu"
+                    aria-labelledby="menu-4"
+                  >
+                    <li class="row">
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 1</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 2</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 3</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 4</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 5</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 6</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 7</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 8</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 9</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 10</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 11</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 12</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 13</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 14</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 15</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 16</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 17</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 18</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 19</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 20</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 21</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 22</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown mega-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-center"
+                    href=""
+                    id="menu-4"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    ><i class="fa fa-industry"></i><br />
+                    Industrial Supplies
+                  </a>
+                  <ul
+                    class="dropdown-menu mega-dropdown-menu"
+                    aria-labelledby="menu-4"
+                  >
+                    <li class="row">
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 1</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 2</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 3</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 4</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 5</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 6</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 7</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 8</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 9</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 10</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 11</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 12</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 13</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 14</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 15</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 16</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 17</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 18</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 19</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 20</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 21</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 22</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown mega-dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-center"
+                    href=""
+                    id="menu-4"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    ><i class="fa fa-plug"></i><br />
+                    Electronics & Electrical
+                  </a>
+                  <ul
+                    class="dropdown-menu mega-dropdown-menu"
+                    aria-labelledby="menu-4"
+                  >
+                    <li class="row">
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 1</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 2</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 3</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 4</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 5</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 6</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 7</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 8</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 9</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 10</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 11</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 12</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 13</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 14</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 15</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 16</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 17</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 18</a>
+                        </li>
+                      </ul>
+                      <ul class="col">
+                        <li>
+                          <a class="dropdown-item" href="#"> block 19</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 20</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 21</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"> block 22</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <a href="#" class="btn cart-btn btn-rounded btn-sm"
+                >View All <br />
+                Catagories</a
+              >
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- navigation close -->
+    <!-- </div>
+        </div>
+      </div>
+    </div> -->
+
+    <section class="cart-banner pt-50 pb-50">
+      <div class="container-fluid">
+        <div class="row clearfix">
+          <!--Image Column-->
+          <div class="image-column col-lg-4">
+            <h2>We connect Buyers & Sellers</h2>
+            <p>
+              IndiaMART is India's largest online B2B marketplace, connecting
+              buyers with suppliers.
+            </p>
+            <div class="d-flex mt-50">
+              <div class="col text-center">
+                <i class="fa fa-certificate fa-lg fsize1 text-danger"></i><br />
+
+                Trusted Platform
+              </div>
+
+              <div class="col text-center">
+                <i class="fa fa-clipboard-check fsize1 text-danger fa-lg"></i
+                ><br />
+
+                Safe & Secure
+              </div>
+
+              <div class="col text-center">
+                <i class="fa fa-comment fa-lg fsize1 text-danger"></i><br />
+
+                Quick Assistance
+              </div>
+            </div>
+          </div>
+          <!--Content Column-->
+          <div class="content-column col-lg-8">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/img/im_banner_25.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/img/im_banner_26.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/img/im_banner_25.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features list section -->
+
+    <!-- end features list section -->
+
+    <!-- product section -->
+    <div class="product-section mt-80 mb-80">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h3>
+                <a href="#"
+                  >Pharmaceutical Drug, Medicine, Medical Care & Consultation</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="abt-bg">
+              <div class="list2">
+                <ul>
+                  <li><a href="#">Submersible Pump</a></li>
+                  <li><a href="#">Automotive Oils</a></li>
+                  <li><a href="#">Water Tanks</a></li>
+                  <li><a href="#">PVC Sheets</a></li>
+                </ul>
+                <a href="about.html" class="boxed-btn mt-4">View All</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/plastic-scrap-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/pvc-sheets-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/water-tanks-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end product section -->
+    <div class="product-section mt-5 mb-80">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h3>
+                <a href="#"
+                  >Pharmaceutical Drug, Medicine, Medical Care & Consultation</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="abt-bg">
+              <div class="list2">
+                <ul>
+                  <li><a href="#">Submersible Pump</a></li>
+                  <li><a href="#">Automotive Oils</a></li>
+                  <li><a href="#">Water Tanks</a></li>
+                  <li><a href="#">PVC Sheets</a></li>
+                </ul>
+                <a href="about.html" class="boxed-btn mt-4">View All</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/plastic-scrap-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/pvc-sheets-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/water-tanks-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- user request form start -->
+    <div class="product-section mt-5 mb-80">
+      <div class="container-fluid">
+        <!-- <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title"></div>
+          </div>
+        </div> -->
+
+        <div class="row">
+          <section class="vh-100">
+            <div class="container py-5 h-100">
+              <div
+                class="row d-flex justify-content-center align-items-center h-100"
+              >
+                <div class="col col-xl-10">
+                  <div
+                    class="card"
+                    style="
+                      border-radius: 1rem;
+                      box-shadow: 3px 3px #1fb53a;
+                      border: 2px solid #1fb53a;
+                    "
+                  >
+                    <div class="row g-0">
+                      <div class="col-md-6 col-lg-5 d-none d-md-block">
+                        <img
+                          src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                          alt="login form"
+                          class="img-fluid"
+                          style="border-radius: 1rem 0 0 1rem"
+                        />
+                      </div>
+                      <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="card-body p-4 p-lg-5 text-black">
+                          <form>
+                            <!-- <div class="d-flex align-items-center mb-3 pb-1">
+                              <i
+                                class="fas fa-cubes fa-2x me-3"
+                                style="color: #ff6219"
+                              ></i>
+                              <span class="h1 fw-bold mb-0">Logo</span>
+                            </div> -->
+
+                            <h3 class="mb-3 pb-3" style="letter-spacing: 1px">
+                              Tell Us Your Requirement
+                            </h3>
+
+                            <div class="form-outline mb-4">
+                              <input
+                                type="email"
+                                id="form2Example17"
+                                class="form-control form-control-lg"
+                                placeholder="Enter Product or Service name"
+                              />
+                            </div>
+
+                            <div class="form-outline mb-4">
+                              <input
+                                type="text"
+                                id="form2Example27"
+                                class="form-control form-control-lg"
+                                placeholder="Enter your Name"
+                              />
+                              <div class="input-group mb-3 mt-3">
+                                <span class="input-group-text" id="basic-addon1"
+                                  >+91</span
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  placeholder="Enter your Mobile no."
+                                  aria-label="Username"
+                                  aria-describedby="basic-addon1"
+                                />
+                              </div>
+                            </div>
+
+                            <div class="pt-1 mb-4">
+                              <button
+                                class="btn btn-lg btn-block"
+                                type="button"
+                                style="background-color: #1fb53a; color: white"
+                              >
+                                Submit Requirement
+                              </button>
+                            </div>
+                            <!-- 
+                            <a class="small text-muted" href="#!"
+                              >Forgot password?</a
+                            >
+                            <p class="mb-5 pb-lg-2" style="color: #393f81">
+                              Don't have an account?
+                              <a href="#!" style="color: #393f81"
+                                >Register here</a
+                              >
+                            </p>
+                            <a href="#!" class="small text-muted"
+                              >Terms of use.</a
+                            >
+                            <a href="#!" class="small text-muted"
+                              >Privacy policy</a
+                            > -->
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- end request form -->
+    <div class="product-section mt-5 mb-80">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h3>
+                <a href="#"
+                  >Pharmaceutical Drug, Medicine, Medical Care & Consultation</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="abt-bg">
+              <div class="list2">
+                <ul>
+                  <li><a href="#">Submersible Pump</a></li>
+                  <li><a href="#">Automotive Oils</a></li>
+                  <li><a href="#">Water Tanks</a></li>
+                  <li><a href="#">PVC Sheets</a></li>
+                </ul>
+                <a href="about.html" class="boxed-btn mt-4">View All</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/plastic-scrap-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/pvc-sheets-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/water-tanks-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="single-latest-news">
+                  <div class="news-text-box">
+                    <div class="d-flex align-items-center no-gutters">
+                      <div class="col-md-5 pr-2">
+                        <img src="assets/img/submersible-pump-125x125.jpg" />
+                      </div>
+                      <div class="col-md-7">
+                        <h3>Summersheb Pump</h3>
+                        <div class="list1">
+                          <ul>
+                            <li><a href="#">Borewell Submersible Pump</a></li>
+
+                            <li><a href="#">CRI Submersible Pumps</a></li>
+
+                            <li><a href="#">Open Well Submersible Pump</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cart banner section -->
+
+    <!-- end cart banner section -->
+
+    <!-- testimonail-section -->
+
+    <!-- end testimonail-section -->
+
+    <!-- advertisement section -->
+
+    <!-- end advertisement section -->
+
+    <!-- shop banner -->
+
+    <!-- end shop banner -->
+
+    <!-- latest news -->
+
+    <!-- end latest news -->
+
+    <!-- logo carousel -->
+    <div class="logo-carousel-section">
+      <div class="container-fluid">
+        <div class="row mb-5">
+          <div class="col-lg-12 text-center">
+            <h3>Explore products from Premium Brands</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="logo-carousel-inner">
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/1.png" alt="" />
+              </div>
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/2.png" alt="" />
+              </div>
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/3.png" alt="" />
+              </div>
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/4.png" alt="" />
+              </div>
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/5.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end logo carousel -->
+    <div class="list-section pt-80 pb-80">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="list-box text-center">
+              <div class="list-icon mx-auto w-25">
+                <i class="fas fa-thumbs-up fa-lg"></i>
+              </div>
+              <br />
+
+              <div class="content">
+                <h3>Connect with verified sellers</h3>
+                <p>
+                  ell us your requirement & let our experts find verified
+                  sellers for you
+                </p>
+                <a href="about.html" class="boxed-btn mt-4"
+                  >Get verified sellers</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="list-box text-center">
+              <div class="list-icon mx-auto w-25">
+                <i class="fas fa-rupee-sign fa-lg"></i>
+              </div>
+              <br />
+
+              <div class="content">
+                <h3>Pay with IndiaMART</h3>
+                <p>
+                  Protect your payments for FREE. Pay sellers online via
+                  multiple options
+                </p>
+                <a href="about.html" class="boxed-btn mt-4">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="list-box text-center">
+              <div class="list-icon mx-auto w-25">
+                <i class="fas fa-shopping-basket fa-lg"></i>
+              </div>
+              <br />
+
+              <div class="content">
+                <h3>Sell on IndiaMART for free</h3>
+                <p>Reach out to more than 4 crore buyers. Sell with us.</p>
+                <a href="about.html" class="boxed-btn mt-4">Start Selling</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div class="list-box text-center">
+              <div class="list-icon mx-auto w-25">
+                <i class="fas fa-mobile fa-lg"></i>
+              </div>
+              <br />
+
+              <div class="content">
+                <h3>Download our App</h3>
+                <p>Get instant notifications on the go. Download our App Now</p>
+                <a href="about.html" class="boxed-btn mt-4">Download Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="abt-section mb-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-12">
+            <img src="assets/img/app-img.png" />
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="abt-text">
+              <h2>Get Indiamart App</h2>
+              <p>
+                Search for products/services and connect with verified sellers
+                on the go!
+              </p>
+
+              <form>
+                <div class="form-row align-items-center">
+                  <div class="col-sm-5 my-1">
+                    <label class="sr-only" for="inlineFormInputGroupUsername"
+                      >Username</label
+                    >
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">91</div>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroupUsername"
+                        placeholder="Enter Mobile Number"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-auto my-1">
+                    <button type="submit" class="btn btn-warning">
+                      Send me the link
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <p>
+                We will send you a link, open it on your phone to download the
+                App
+              </p>
+              <a href="about.html" class="mt-4"
+                ><img src="assets/img/ios.jpg"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-box pages">
+              <h2 class="widget-title">Important Link</h2>
+              <ul>
+                <li><a href="index.html">Join Sales</a></li>
+                <li><a href="about.html">Succcess Stories</a></li>
+                <li><a href="services.html">Press Section</a></li>
+                <li><a href="news.html">Advertise with Us</a></li>
+                <li><a href="contact.html">Investor Section</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-box pages">
+              <h2 class="widget-title">Events</h2>
+              <ul>
+                <li><a href="index.html">Trade Show</a></li>
+                <li><a href="about.html">Conferences</a></li>
+                <li><a href="services.html">Events by Country</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-box pages">
+              <h2 class="widget-title">Suppliers Tool Kit</h2>
+              <ul>
+                <li><a href="index.html">Sale on IndiaMART</a></li>
+                <li><a href="about.html">Latest BuyLead</a></li>
+                <li><a href="services.html">Learning Centre</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-box pages">
+              <h2 class="widget-title">Buyers Tool Kit</h2>
+              <ul>
+                <li><a href="index.html">Post Your Requirement</a></li>
+                <li><a href="about.html">Products You Buy</a></li>
+                <li><a href="services.html">Search Products & Suppliers</a></li>
+                <li><a href="news.html">Pay with IndiaMART</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- copyright -->
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <p>Copyrights &copy; 2022 All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 text-right col-md-12">
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-dribbble"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end copyright -->
+  </body>
+</html>

@@ -1,0 +1,9 @@
+ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #b5f9c1;
+}
+.form-control {
+  font-size: 1.4rem;
+}
+button {
+  font-size: inherit;
+}

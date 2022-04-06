@@ -1,0 +1,48 @@
+.btn-warning {
+  background-color: #1fb53a;
+  border-color: #1fb53a;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.btn-warning:hover {
+  background-color: #b5f9c1;
+  color: #555;
+}
+h3.text-white {
+  margin-bottom: 3rem;
+}
+div.col.text-center {
+  font-size: 1.4rem;
+  padding-right: 0;
+  padding-left: 0;
+}
+svg.fa-lg {
+  height: 2.2rem;
+}
+svg.fa-lg:hover {
+  color: #1fb53a;
+}
+.form-control {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 486px) {
+  /* button.navbar-toggler.collapsed { */
+  /* position: fixed;
+    right: 0; */
+  /* } */
+  div.form-row {
+    width: 28.7rem;
+    margin-left: 1.6rem;
+  }
+  div.mr-sm-2 {
+    width: 9.4rem;
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+  .navbar-brand {
+    display: none;
+  }
+}
