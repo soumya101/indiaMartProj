@@ -1,6 +1,6 @@
 <app-header></app-header>
 <div class="container-fluid">
-  <div class="row">
+  <div class="row" id="hide">
     <div class="d-flex justify-content-between">
       <div class="col">
         <h3>Pharmaceutical Tablet</h3>
@@ -9,22 +9,335 @@
       <div class="">View by : <b>product</b> | suppliers</div>
     </div>
   </div>
+  <!-- mob or tab view start -->
+  <!-- <div class="tab"> -->
+  <ul class="d-flex justify-content-between list-unstyled">
+    <li class="nav-item dropdown mega-dropdown">
+      <a
+        class="nav-link dropdown-toggle text-center"
+        href=""
+        id="menu-4"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+        ><i class="fa fa-map-marker-alt"></i>
+
+        Select City
+      </a>
+      <ul class="dropdown-menu mega-dropdown-menu" aria-labelledby="menu-4">
+        <li class="row">
+          <ul class="col">
+            <li>
+              <h6>Common Disease</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/category"> block 1</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 2</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 3</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 4</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 5</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 6</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <h6>Ayurved Herbal Product & Medicine</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 7</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 8</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 9</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 10</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 11</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 12</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <h6>Nutraceuticals & Dietary Supplements</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 13</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 14</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 15</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 16</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 17</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 18</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <h6>Anti infective Drugs & Medicines</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 19</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 20</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 21</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 22</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-item dropdown mega-dropdown">
+      <a
+        class="nav-link dropdown-toggle text-center"
+        href=""
+        id="menu-4"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Categories..
+      </a>
+      <ul class="dropdown-menu mega-dropdown-menu" aria-labelledby="menu-4">
+        <li class="row">
+          <ul class="col">
+            <li>
+              <h6>Common Disease</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/category"> block 1</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 2</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 3</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 4</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 5</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 6</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <h6>Ayurved Herbal Product & Medicine</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 7</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 8</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 9</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 10</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 11</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 12</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <h6>Nutraceuticals & Dietary Supplements</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 13</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 14</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 15</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 16</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 17</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 18</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <h6>Anti infective Drugs & Medicines</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 19</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 20</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 21</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 22</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-item dropdown mega-dropdown">
+      <a
+        class="nav-link dropdown-toggle text-center"
+        href=""
+        id="menu-4"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Seller Type
+      </a>
+      <ul class="dropdown-menu mega-dropdown-menu" aria-labelledby="menu-4">
+        <li class="row">
+          <ul class="col">
+            <li>
+              <h6>Common Disease</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="/category"> block 1</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 2</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 3</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 4</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 5</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 6</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <h6>Ayurved Herbal Product & Medicine</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 7</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 8</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 9</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 10</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 11</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 12</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <h6>Nutraceuticals & Dietary Supplements</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 13</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 14</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 15</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 16</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 17</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 18</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <h6>Anti infective Drugs & Medicines</h6>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 19</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 20</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 21</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> block 22</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <!-- </div> -->
+  <!-- mob or tab view end -->
   <div class="col mt-4">
     <ul class="list-group list-group-horizontal-sm">
-      <li class="list-group-item">
+      <li class="list-group-item" id="hide">
         <i class="fa fa-map-marker-alt"></i><span>Location</span>
       </li>
-      <li class="list-group-item">
+      <li class="list-group-item" id="hide">
         <input type="text" class="search" placeholder="Search Here" />
       </li>
-      <li class="list-group-item side-bartop-bar"><a>Near me</a></li>
-      <li class="list-group-item active"><a>All India</a></li>
+      <li class="list-group-item top-bar"><a>Near me</a></li>
+      <li class="list-group-item top-bar active"><a>All India</a></li>
       <li class="list-group-item top-bar"><a>Bhubaneswar</a></li>
       <li class="list-group-item top-bar"><a>Hyderabad</a></li>
       <li class="list-group-item top-bar"><a>Bangalore</a></li>
       <li class="list-group-item top-bar"><a>Pune</a></li>
       <li class="list-group-item top-bar"><a>Mumbai</a></li>
-      <li class="list-group-item top-bar"><a>Pune</a></li>
+      <li class="list-group-item top-bar"><a>Gujrat</a></li>
       <li class="list-group-item top-bar"><a>Rajasthan</a></li>
     </ul>
   </div>
@@ -35,13 +348,13 @@
       <div class="col-lg-2 col-md-4">
         <ul class="list-group">
           <b>Filter Results</b>
-        </ul>
-        <div class="list-group">
-          <label class="list-group-item side-bar">
+          <!-- <div class="list-group"> -->
+          <li class="list-group-item side-bar">
             <input class="form-check-input me-1" type="checkbox" value="" />
             <span>Shop Now</span>
-          </label>
-        </div>
+          </li>
+        </ul>
+        <!-- </div> -->
         <ul class="list-group">
           <b>Related Category</b>
           <li class="list-group-item side-bar"><a>paracetamol Tablets</a></li>

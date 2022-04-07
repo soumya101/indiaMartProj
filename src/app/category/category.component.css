@@ -10,6 +10,9 @@
   background-color: #b5f9c1;
   color: black;
 }
+.list-group {
+  margin-bottom: 10px;
+}
 .list-group-item {
   border: none;
 }
@@ -18,6 +21,7 @@
   background-color: #fff;
   color: #555;
 }
+
 .top-bar:hover {
   border-bottom: 3px solid #1fb53a;
   margin-left: 5px;
@@ -37,11 +41,48 @@
 span {
   margin-left: 10px;
 }
+ul b {
+  padding: 8px 20px 8px 8px;
+  border-radius: 4px 4px 0 0;
+  border: 1px solid #dadada;
+}
+.tab {
+  display: none;
+}
 
 @media only screen and (max-width: 1000px) {
+  .container-fluid {
+    background-color: #fff;
+  }
+  .tab {
+    display: block;
+  }
   div.col.mt-4 {
-    height: 11vh;
+    height: auto;
     overflow: scroll;
+  }
+  #hide {
+    display: none;
+  }
+  .list-group-item {
+    padding: 0;
+  }
+  .top-bar {
+    background-color: #dadbdc;
+    border-radius: 20px;
+    padding: 6px;
+    margin-right: 8px;
+  }
+  .top-bar:hover {
+    background-color: #9acfca;
+    border-bottom: 0;
+  }
+  .list-group-item.active {
+    background-color: #9acfca;
+    border-bottom: 0;
+  }
+  .col-lg-2 {
+    display: none;
   }
 }
 @media only screen and (max-width: 575px) {
